@@ -1,0 +1,18 @@
+*,
+*::before,
+*::after{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body
+{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-family:'Public';
+    background-color: #ffffff;
+    color: #33323D;
+
+}

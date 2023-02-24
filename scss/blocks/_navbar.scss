@@ -1,0 +1,81 @@
+header{
+    width: 100%;
+    margin: 56px auto 54px;
+    nav 
+    {
+        width: 100%;
+        // margin: 0px auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .logo
+        {
+            width: 60px;
+            height: 32px;
+            display:block;
+          
+        }
+        .hamburger{
+            display: none;
+            opacity: 0;
+            width: 24px;
+            height: 13px;
+        }
+        .navbar_ul
+        {
+            list-style: none;
+            display: flex;
+            gap: 43px;
+            font-size: 12px;
+            a 
+            {
+                text-decoration: none;                
+                font-size: 'publicis';
+                color: #33323D;
+            }
+           a:hover
+           {
+            color: #5FB4A2;
+           }
+        }
+
+    }
+
+}
+// teblet header mkv
+@media only screen and (max-width:800px) {
+    .container
+    {
+        max-width: 688px;
+        padding-left: 40px;
+        padding-right: 40px;
+        header 
+        {
+            margin: 64px auto 47px;
+        }
+    }
+    // mobile header mkv
+    @media only screen and (max-width:400px) {
+        .container{
+            max-width: 311px;
+            padding-left: 32px;
+            padding-right: 32px;
+            header 
+            {
+                margin: 32px auto 40px;
+                ul 
+                {
+                    display: none;
+                }
+                .hamburger
+                {
+                    display: block;
+                    opacity: 1;
+                }
+            }
+
+        }
+        
+    }
+    
+}

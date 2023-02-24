@@ -1,0 +1,121 @@
+main
+{
+    width: 100%;
+    // bitta ekranni egaLLASH KODINI TOPIB
+    height: 600px;
+    background-image: url(../../img/Bitmap@2x\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    display: flex;
+    justify-content: start;
+    align-items: flex-end;
+    padding-right: 25px;
+    .imgBg
+    {
+        display: none;
+        width: 100%;
+        // 1 ta ekranni egallash kodini topib o'chir 
+        height: 271px;
+        opacity: 0;
+    }
+    .content
+    {
+        max-width: 445px;
+        max-height: 357px;
+        background-color: white;
+        h1 {
+            display: none;
+        }
+        h2 
+        {
+            font-size: 50px;
+            font-weight: 700;
+            font-family: 'IbarraRegular';
+            text-align: start;
+            margin: 56px 55px 53px 0px;
+        }
+        .button_div
+        {
+            background-color: #203A4C;
+            width: 200px;
+            height: 48px;
+            display: flex;
+           
+           
+            a {
+                display:inline;
+                text-align: center;
+                text-decoration: none;
+                color: white;
+                font-size: 12px;
+                width: 100%;
+                height: 100%;
+                padding-top: 17px;
+                padding-bottom: 17px;
+    
+
+            }
+            img 
+            {
+                width: 48px;
+                height: 48px;
+                background-color: #1b3243;
+            }
+          
+        }
+    }
+}
+// tablet main
+@media only screen and (max-width:800px) 
+{
+    main
+    {
+        // orqa fonni to'girla
+        background-image: url(../../img/Bitmap@2x\ \(1\).jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:cover;
+        
+
+        .content
+        {
+            max-width: 514px;
+            max-height: 278px;
+            h2{
+                font-size: 40px;
+            }
+        
+        }
+    
+    }
+    
+}
+// mobile main
+@media only screen and (max-width:400px) {
+    main 
+    {
+        background-image: none;
+        display: flex;
+        flex-direction: column;
+        .imgBg
+        {
+            display: block;
+            opacity: 1;
+            margin-bottom: 24px;
+
+        }
+        .content
+        {
+            width: 100%;
+            margin-bottom: 96px;
+            height: auto;
+            h2 
+            {
+                // font-size: 40px;
+                margin: 0px auto 32px;         
+
+            }
+        }
+    }
+}
