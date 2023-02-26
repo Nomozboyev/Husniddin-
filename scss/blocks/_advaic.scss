@@ -1,0 +1,55 @@
+.advaic
+{
+    width: 100%;
+    display: flex;
+    gap: 32px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+
+    h2 
+    {
+        font-size: 40px;
+        font-weight: 700;
+        font-family: "IbarraRegular";
+        max-width: 350px;
+        
+    }
+    span 
+    {
+        max-width: 534px;
+        border-bottom: 5px solid #33323D;
+    }
+    a 
+    {
+        font-size: 12px;
+        text-decoration: none;
+        border: 1px solid #33323D;
+        color: #33323D;
+        text-align: center;
+        // width: 202px;
+        // height: 48px;
+        padding-top: 17px;
+        padding-right: 36px;
+        padding-bottom: 17px;
+        padding-left: 32px;
+    }
+
+    
+}
+@media only screen and (max-width:575px) {
+    .advaic
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        h2 
+        {
+            text-align: center;
+        }
+        a 
+        {
+            text-align: center;
+        }
+    }
+}

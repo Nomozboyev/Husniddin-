@@ -5,6 +5,43 @@
   padding: 0 165px;
 }
 
+@media only screen and (max-width: 915px) {
+  .container {
+    padding-right: 40px;
+    padding-left: 40px;
+    margin: 0px auto;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .container {
+    padding-left: 32px;
+    padding-right: 32px;
+    margin: 0px auto;
+  }
+}
+.container-2 {
+  max-width: 1110px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 165px;
+  background-color: #33323D;
+}
+
+@media only screen and (max-width: 915px) {
+  .container-2 {
+    padding-right: 40px;
+    width: 100%;
+    padding-left: 40px;
+    margin: 0px auto;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .container-2 {
+    padding-left: 32px;
+    padding-right: 32px;
+    margin: 0px auto;
+  }
+}
 .container {
   max-width: 1110px;
   width: 100%;
@@ -12,6 +49,43 @@
   padding: 0 165px;
 }
 
+@media only screen and (max-width: 915px) {
+  .container {
+    padding-right: 40px;
+    padding-left: 40px;
+    margin: 0px auto;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .container {
+    padding-left: 32px;
+    padding-right: 32px;
+    margin: 0px auto;
+  }
+}
+.container-2 {
+  max-width: 1110px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 165px;
+  background-color: #33323D;
+}
+
+@media only screen and (max-width: 915px) {
+  .container-2 {
+    padding-right: 40px;
+    width: 100%;
+    padding-left: 40px;
+    margin: 0px auto;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .container-2 {
+    padding-left: 32px;
+    padding-right: 32px;
+    margin: 0px auto;
+  }
+}
 @font-face {
   font-family: "Public";
   src: url(../fonts/PublicSans-Medium.ttf);
@@ -56,7 +130,7 @@ header nav .navbar_ul a:hover {
   color: #5FB4A2;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 915px) {
   .container {
     max-width: 688px;
     padding-left: 40px;
@@ -66,7 +140,7 @@ header nav .navbar_ul a:hover {
     margin: 64px auto 47px;
   }
 }
-@media only screen and (max-width: 800px) and (max-width: 400px) {
+@media only screen and (max-width: 915px) and (max-width: 575px) {
   .container {
     max-width: 311px;
     padding-left: 32px;
@@ -93,7 +167,7 @@ main {
   display: flex;
   justify-content: start;
   align-items: flex-end;
-  padding-right: 25px;
+  margin-bottom: 150px;
 }
 main .imgBg {
   display: none;
@@ -139,12 +213,13 @@ main .content .button_div img {
   background-color: #1b3243;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 915px) {
   main {
     background-image: url(../../img/Bitmap@2x\ \(1\).jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    margin-bottom: 96px;
   }
   main .content {
     max-width: 514px;
@@ -154,7 +229,7 @@ main .content .button_div img {
     font-size: 40px;
   }
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 575px) {
   main {
     background-image: none;
     display: flex;
@@ -172,5 +247,287 @@ main .content .button_div img {
   }
   main .content h2 {
     margin: 0px auto 32px;
+  }
+}
+.about {
+  width: 100%;
+  display: flex;
+  margin-bottom: 150px;
+  margin-right: 95px;
+}
+.about .img_about_desktop {
+  margin-right: 150px;
+  max-width: 540px;
+  max-height: 600px;
+}
+.about .img_about_tablet {
+  display: none;
+  width: 281px;
+  height: 600px;
+  opacity: 0;
+}
+
+.article {
+  max-width: 350px;
+  padding-top: 50px;
+  padding-bottom: 46px;
+  border-top: 1px solid #33323D;
+  border-bottom: 1px solid #33323D;
+}
+.article h2 {
+  font-size: 40px;
+  font-family: "IbarraRegular";
+  margin-bottom: 28px;
+}
+.article p {
+  margin-bottom: 24px;
+}
+.article a {
+  text-decoration: none;
+  border: 1px solid #33323D;
+  color: #33323D;
+  text-align: center;
+  padding-top: 17px;
+  padding-right: 36px;
+  padding-bottom: 17px;
+  padding-left: 32px;
+}
+
+@media only screen and (max-width: 915px) {
+  .about {
+    margin-bottom: 69px;
+    margin-right: 0px;
+  }
+  .about .img_about_desktop {
+    display: none;
+  }
+  .about .img_about_tablet {
+    display: block;
+    opacity: 1;
+    margin-right: 69px;
+  }
+  .about .article {
+    max-width: 339px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .about {
+    display: flex;
+    flex-direction: column;
+  }
+  .about .img_about_desktop {
+    display: block;
+    width: 100%;
+    margin-bottom: 32px;
+    opacity: 1;
+  }
+  .about .img_about_tablet {
+    display: none;
+  }
+  .about .article {
+    width: 100%;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-bottom: 51px;
+  }
+  .about .article h2 {
+    margin-bottom: 28px;
+  }
+  .about .article p {
+    margin-bottom: 24px;
+  }
+}
+.portfolio_about-1 {
+  display: flex;
+  margin-bottom: 80px;
+  margin-right: 95px;
+}
+
+.img_about_desktop-1_1 {
+  margin-right: 150px;
+  max-width: 540px;
+}
+
+.img_about_tablet-1_2 {
+  display: none;
+  width: 339px;
+  opacity: 0;
+}
+
+@media only screen and (max-width: 915px) {
+  .portfolio_about-1 {
+    margin-bottom: 69px;
+    margin-right: 0px;
+  }
+  .img_about_desktop-1_1 {
+    display: none;
+  }
+  .img_about_tablet-1_2 {
+    display: block;
+    opacity: 1;
+    margin-right: 69px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .portfolio_about-1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .img_about_desktop-1_1 {
+    display: block;
+    width: 100%;
+    opacity: 1;
+    margin: 0px auto 32px;
+  }
+  .img_about_tablet-1_2 {
+    display: none;
+  }
+}
+.portfolio_about-2 {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-left: 95px;
+  margin-bottom: 80px;
+}
+
+.img_about_desktop-2_1 {
+  max-width: 540px;
+  margin-left: 150px;
+}
+
+.img_about_tablet-2_2 {
+  display: none;
+  max-width: 339px;
+  opacity: 0;
+}
+
+@media only screen and (max-width: 915px) {
+  .portfolio_about-2 {
+    margin-bottom: 69px;
+    margin-left: 0px;
+  }
+  .img_about_desktop-2_1 {
+    display: none;
+  }
+  .img_about_tablet-2_2 {
+    display: block;
+    opacity: 1;
+    padding-left: 69px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .portfolio_about-2 {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+  .img_about_desktop-2_1 {
+    display: block;
+    width: 100%;
+    padding-bottom: 32px;
+    opacity: 1;
+    margin: 0px;
+  }
+  .img_about_tablet-2_2 {
+    display: none;
+    padding: 0px;
+  }
+}
+.advaic {
+  width: 100%;
+  display: flex;
+  gap: 32px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 80px;
+}
+.advaic h2 {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "IbarraRegular";
+  max-width: 350px;
+}
+.advaic span {
+  max-width: 534px;
+  border-bottom: 5px solid #33323D;
+}
+.advaic a {
+  font-size: 12px;
+  text-decoration: none;
+  border: 1px solid #33323D;
+  color: #33323D;
+  text-align: center;
+  padding-top: 17px;
+  padding-right: 36px;
+  padding-bottom: 17px;
+  padding-left: 32px;
+}
+
+@media only screen and (max-width: 575px) {
+  .advaic {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .advaic h2 {
+    text-align: center;
+  }
+  .advaic a {
+    text-align: center;
+  }
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #33323D;
+  width: 100%;
+}
+
+.footerDivLeft {
+  display: flex;
+  gap: 48px;
+  align-items: center;
+}
+.footerDivLeft ul {
+  display: flex;
+  gap: 42px;
+  list-style: none;
+}
+.footerDivLeft a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-family: "Public";
+  font-size: 12px;
+}
+
+.footerDivRight ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+@media only screen and (max-width: 575px) {
+  footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #33323D;
+    padding-top: 56px;
+    padding-bottom: 56px;
+  }
+  footer .footerDivLeft {
+    flex-direction: column;
+  }
+  footer .footerDivLeft ul {
+    flex-direction: column;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .footerDivRight ul {
+    padding: 0;
   }
 }/*# sourceMappingURL=main.css.map */

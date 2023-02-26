@@ -1,0 +1,239 @@
+.about
+{
+    width: 100%;
+    display: flex;
+    margin-bottom: 150px;
+    margin-right: 95px;
+
+    .img_about_desktop
+    {
+        margin-right: 150px;
+        max-width: 540px;
+        max-height: 600px;
+    }
+    .img_about_tablet
+    {
+        display: none;
+        width: 281px;
+        height: 600px;
+        opacity: 0;
+    }
+     
+}
+.article 
+    {
+        max-width: 350px;
+        padding-top: 50px;
+        padding-bottom: 46px;
+        border-top: 1px solid #33323D;
+        border-bottom: 1px solid #33323D;
+        h2
+        {
+            font-size: 40px;
+            font-family: "IbarraRegular";
+            margin-bottom: 28px;
+        }
+        p 
+        {
+           margin-bottom: 24px;
+        }
+        a 
+        {
+            text-decoration: none;
+            border: 1px solid #33323D;
+            color: #33323D;
+            text-align: center;
+            // width: 202px;
+            // height: 48px;
+            padding-top: 17px;
+            padding-right: 36px;
+            padding-bottom: 17px;
+            padding-left: 32px;
+        }
+
+    }
+// tablet 
+@media only screen and (max-width:915px) {
+    .about
+    {
+        margin-bottom: 69px;
+        margin-right: 0px;
+
+        .img_about_desktop
+        {
+            display: none;
+        }
+        .img_about_tablet
+        {
+            display: block;
+            opacity: 1;
+            margin-right: 69px;
+        }
+        .article
+        {
+            max-width: 339px;
+
+        }
+    }
+}
+// mobile
+@media only screen and (max-width:575px) {
+    .about
+    {
+        display: flex;
+        flex-direction: column;
+        
+        .img_about_desktop
+        {
+            display: block;
+            width: 100%;
+            margin-bottom: 32px;
+            opacity: 1;
+        }
+        .img_about_tablet{
+            display: none;
+        }
+        .article
+        {
+            width: 100%;
+            padding-top: 32px;
+            padding-bottom: 32px;
+            margin-bottom: 51px;
+            h2 
+            {
+                margin-bottom: 28px;
+                
+            }
+            p 
+            {
+                margin-bottom: 24px;
+            }
+
+
+        }
+    }
+    
+}
+.portfolio_about-1
+{
+    display: flex;
+    margin-bottom: 80px;
+    margin-right: 95px;
+}
+.img_about_desktop-1_1
+{
+    margin-right: 150px;
+    max-width:540px;
+    
+}
+.img_about_tablet-1_2
+{
+    display: none;
+    width: 339px;
+    opacity: 0;
+}
+// portfolio 1 tablet
+@media only screen and (max-width:915px) {
+    .portfolio_about-1
+    {
+        margin-bottom: 69px;
+        margin-right: 0px;
+    }
+    .img_about_desktop-1_1
+    {
+        display: none;
+    }
+    .img_about_tablet-1_2
+    {
+        display: block;
+        opacity: 1;
+        margin-right: 69px;
+    }
+}
+// portfolio 1 mobile
+@media only screen and (max-width:575px) {
+    
+    .portfolio_about-1
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .img_about_desktop-1_1
+    {
+        display: block;
+        width: 100%;
+        opacity: 1;
+        margin: 0px auto 32px;
+    }
+    .img_about_tablet-1_2
+    {
+        display: none;
+    }
+}
+.portfolio_about-2
+{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 95px;
+    margin-bottom: 80px;
+
+}
+.img_about_desktop-2_1
+{
+    max-width: 540px;
+    margin-left: 150px;
+    
+}
+.img_about_tablet-2_2
+{
+    display: none;
+       max-width: 339px;
+        opacity: 0;
+    
+}
+// portfolio 2 tablet 
+@media only screen and (max-width:915px) {
+    .portfolio_about-2
+    {
+        margin-bottom:69px;
+        margin-left: 0px;
+    }
+    .img_about_desktop-2_1
+    {
+        display: none;
+    }
+    .img_about_tablet-2_2
+    {
+        display: block;
+        opacity: 1;
+        padding-left: 69px;
+    }
+}
+// portfolio 2 mobile
+@media only screen and ( max-width:575px) {
+   
+    .portfolio_about-2
+    {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+
+    }
+    .img_about_desktop-2_1
+    {
+        display: block;
+        width: 100%;
+        // margin-bottom: 32px;
+        padding-bottom: 32px;
+        opacity: 1;
+        // padding: 0px;
+        margin: 0px;
+    }
+    .img_about_tablet-2_2
+    {
+        display: none;
+        padding: 0px;
+    }
+
+
+}

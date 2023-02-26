@@ -10,7 +10,7 @@ main
     display: flex;
     justify-content: start;
     align-items: flex-end;
-    padding-right: 25px;
+    margin-bottom: 150px;
     .imgBg
     {
         display: none;
@@ -67,7 +67,7 @@ main
     }
 }
 // tablet main
-@media only screen and (max-width:800px) 
+@media only screen and (max-width:915px) 
 {
     main
     {
@@ -76,7 +76,8 @@ main
         background-repeat: no-repeat;
         background-position: center;
         background-size:cover;
-        
+    margin-bottom:96px;
+         
 
         .content
         {
@@ -92,7 +93,7 @@ main
     
 }
 // mobile main
-@media only screen and (max-width:400px) {
+@media only screen and (max-width:575px) {
     main 
     {
         background-image: none;
